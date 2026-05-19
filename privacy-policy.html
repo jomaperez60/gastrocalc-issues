@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GastroPro – Privacy Policy / Política de Privacidad</title>
+  <style>
+    :root {
+      --accent: #2563eb;
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --text: #1e293b;
+      --muted: #64748b;
+      --border: #e2e8f0;
+      --radius: 12px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      padding: 24px 16px 64px;
+    }
+    .container { max-width: 780px; margin: 0 auto; }
+    header {
+      text-align: center;
+      padding: 48px 0 32px;
+    }
+    .logo {
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: var(--accent);
+      letter-spacing: -0.5px;
+    }
+    .tagline { color: var(--muted); font-size: 0.95rem; margin-top: 6px; }
+    .lang-toggle {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin-bottom: 32px;
+    }
+    .lang-btn {
+      padding: 8px 24px;
+      border-radius: 999px;
+      border: 1.5px solid var(--border);
+      background: var(--card);
+      color: var(--muted);
+      cursor: pointer;
+      font-size: 0.9rem;
+      font-weight: 500;
+      transition: all .15s;
+    }
+    .lang-btn.active {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+    }
+    section { display: none; }
+    section.visible { display: block; }
+    .card {
+      background: var(--card);
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      padding: 28px 32px;
+      margin-bottom: 20px;
+    }
+    h1 { font-size: 1.6rem; font-weight: 700; margin-bottom: 6px; }
+    h2 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--accent);
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      font-size: 0.8rem;
+    }
+    p { color: var(--text); margin-bottom: 10px; }
+    p:last-child { margin-bottom: 0; }
+    ul { padding-left: 20px; margin-bottom: 10px; }
+    li { margin-bottom: 6px; color: var(--text); }
+    .updated {
+      font-size: 0.82rem;
+      color: var(--muted);
+      margin-bottom: 24px;
+      display: block;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .badge {
+      display: inline-block;
+      background: #dcfce7;
+      color: #15803d;
+      border-radius: 999px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      padding: 3px 12px;
+      margin-left: 8px;
+      vertical-align: middle;
+    }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.82rem;
+      padding-top: 32px;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <header>
+    <div class="logo">GastroPro</div>
+    <div class="tagline">Medical Calculator · Calculadora Médica</div>
+  </header>
+
+  <div class="lang-toggle">
+    <button class="lang-btn active" onclick="setLang('en')">English</button>
+    <button class="lang-btn" onclick="setLang('es')">Español</button>
+  </div>
+
+  <!-- ─────────────────────────── ENGLISH ─────────────────────────── -->
+  <section id="en" class="visible">
+
+    <div class="card">
+      <h2>Privacy Policy</h2>
+      <h1>GastroPro <span class="badge">No data collected</span></h1>
+      <span class="updated">Last updated: May 18, 2026</span>
+
+      <p>
+        This Privacy Policy describes how GastroPro ("the App", "we", "our") handles
+        information when you use our iOS application. Your privacy is important to us and
+        we have designed this app with a privacy-first approach.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>1. Information We Do NOT Collect</h2>
+      <p>GastroPro does <strong>not</strong> collect, store, transmit, or share any personally identifiable information. Specifically, we do not collect:</p>
+      <ul>
+        <li>Patient data or clinical information you enter into calculators</li>
+        <li>Name, email address, or any contact information</li>
+        <li>Device identifiers or location data</li>
+        <li>Health or medical records</li>
+        <li>Usage analytics or behavioral data</li>
+        <li>Crash reports or diagnostics transmitted to our servers</li>
+      </ul>
+      <p>All calculations are performed entirely on your device. No data leaves your device unless you explicitly use the optional AI Interpretation feature described below.</p>
+    </div>
+
+    <div class="card">
+      <h2>2. Local Storage Only</h2>
+      <p>
+        Calculation history is stored exclusively in your device's local storage
+        (UserDefaults). This data never leaves your device and is deleted when
+        you clear the app's history or uninstall the app.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>3. Optional AI Interpretation Feature</h2>
+      <p>
+        GastroPro offers an <strong>optional</strong> AI-powered interpretation feature.
+        When you choose to use this feature, the clinical values you have entered
+        (e.g., lab results, scores) are sent to one or more of the following
+        third-party AI providers:
+      </p>
+      <ul>
+        <li><strong>Anthropic</strong> (Claude) – <a href="https://www.anthropic.com/privacy" target="_blank">Privacy Policy</a></li>
+        <li><strong>Google</strong> (Gemini) – <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a></li>
+        <li><strong>Groq</strong> (Llama) – <a href="https://groq.com/privacy-policy/" target="_blank">Privacy Policy</a></li>
+      </ul>
+      <p>
+        This feature is entirely voluntary. The values sent contain no patient
+        names, identifiers, or any information that can identify a specific individual.
+        We recommend avoiding entering any personally identifiable information into the app.
+      </p>
+      <p>
+        We do not retain, log, or have access to the data sent to these providers.
+        Each provider's own privacy policy governs the handling of that data.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>4. No Third-Party Analytics or Advertising</h2>
+      <p>GastroPro does not integrate any analytics SDKs, advertising networks, tracking pixels, or crash reporting tools that transmit data externally.</p>
+    </div>
+
+    <div class="card">
+      <h2>5. Medical Disclaimer</h2>
+      <p>
+        GastroPro is intended as a clinical reference tool for healthcare professionals.
+        It is not a substitute for professional medical judgment. All results should be
+        interpreted in the context of the individual patient by a qualified clinician.
+        We do not assume liability for clinical decisions made based on the app's outputs.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>6. Children's Privacy</h2>
+      <p>GastroPro is intended for use by licensed healthcare professionals. It is not directed at children under 13. We do not knowingly collect information from children.</p>
+    </div>
+
+    <div class="card">
+      <h2>7. Changes to This Policy</h2>
+      <p>We may update this Privacy Policy from time to time. Any changes will be reflected on this page with an updated revision date. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+    </div>
+
+    <div class="card">
+      <h2>8. Contact</h2>
+      <p>
+        If you have any questions about this Privacy Policy, please contact us at:<br/>
+        <a href="mailto:jmsuazob@gmail.com">jmsuazob@gmail.com</a>
+      </p>
+    </div>
+
+  </section>
+
+  <!-- ─────────────────────────── ESPAÑOL ─────────────────────────── -->
+  <section id="es">
+
+    <div class="card">
+      <h2>Política de Privacidad</h2>
+      <h1>GastroPro <span class="badge">Sin recopilación de datos</span></h1>
+      <span class="updated">Última actualización: 18 de mayo de 2026</span>
+
+      <p>
+        Esta Política de Privacidad describe cómo GastroPro ("la App", "nosotros") maneja
+        la información cuando utilizas nuestra aplicación iOS. Tu privacidad es importante
+        para nosotros y hemos diseñado esta app con un enfoque de privacidad desde el diseño.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>1. Información que NO recopilamos</h2>
+      <p>GastroPro <strong>no</strong> recopila, almacena, transmite ni comparte ningún dato de identificación personal. En particular, no recopilamos:</p>
+      <ul>
+        <li>Datos de pacientes ni información clínica ingresada en las calculadoras</li>
+        <li>Nombre, correo electrónico ni ningún dato de contacto</li>
+        <li>Identificadores de dispositivo ni datos de ubicación</li>
+        <li>Registros médicos o de salud</li>
+        <li>Analytics de uso ni datos de comportamiento</li>
+        <li>Reportes de crashes transmitidos a nuestros servidores</li>
+      </ul>
+      <p>Todos los cálculos se realizan íntegramente en tu dispositivo. Ningún dato sale del dispositivo salvo que uses explícitamente la función opcional de Interpretación IA descrita a continuación.</p>
+    </div>
+
+    <div class="card">
+      <h2>2. Almacenamiento solo local</h2>
+      <p>
+        El historial de cálculos se almacena exclusivamente en el almacenamiento local del
+        dispositivo (UserDefaults). Estos datos nunca salen de tu dispositivo y se eliminan
+        al borrar el historial de la app o al desinstalarla.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>3. Función opcional de Interpretación IA</h2>
+      <p>
+        GastroPro ofrece una función <strong>opcional</strong> de interpretación mediante IA.
+        Cuando eliges usar esta función, los valores clínicos ingresados
+        (p. ej., resultados de laboratorio, puntuaciones) se envían a uno o más
+        proveedores de IA externos:
+      </p>
+      <ul>
+        <li><strong>Anthropic</strong> (Claude) – <a href="https://www.anthropic.com/privacy" target="_blank">Política de Privacidad</a></li>
+        <li><strong>Google</strong> (Gemini) – <a href="https://policies.google.com/privacy" target="_blank">Política de Privacidad</a></li>
+        <li><strong>Groq</strong> (Llama) – <a href="https://groq.com/privacy-policy/" target="_blank">Política de Privacidad</a></li>
+      </ul>
+      <p>
+        Esta función es completamente voluntaria. Los valores enviados no contienen
+        nombres de pacientes, identificadores ni información que permita identificar a
+        una persona concreta. Recomendamos no ingresar ningún dato identificable en la app.
+      </p>
+      <p>
+        No retenemos, registramos ni tenemos acceso a los datos enviados a estos proveedores.
+        La política de privacidad de cada proveedor rige el tratamiento de esos datos.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>4. Sin analytics ni publicidad</h2>
+      <p>GastroPro no integra ningún SDK de analytics, redes publicitarias, píxeles de seguimiento ni herramientas de reporte de crashes que transmitan datos externamente.</p>
+    </div>
+
+    <div class="card">
+      <h2>5. Aviso médico</h2>
+      <p>
+        GastroPro está diseñado como herramienta de referencia clínica para profesionales de
+        la salud. No sustituye el juicio médico profesional. Todos los resultados deben ser
+        interpretados en el contexto del paciente individual por un clínico cualificado.
+        No asumimos responsabilidad por decisiones clínicas tomadas en base a los resultados de la app.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>6. Privacidad de menores</h2>
+      <p>GastroPro está destinado a profesionales sanitarios con licencia. No está dirigido a menores de 13 años y no recopilamos intencionalmente información de menores.</p>
+    </div>
+
+    <div class="card">
+      <h2>7. Cambios en esta política</h2>
+      <p>Podemos actualizar esta Política de Privacidad periódicamente. Cualquier cambio se reflejará en esta página con la fecha de revisión actualizada. El uso continuado de la app tras los cambios implica la aceptación de la política actualizada.</p>
+    </div>
+
+    <div class="card">
+      <h2>8. Contacto</h2>
+      <p>
+        Si tienes preguntas sobre esta Política de Privacidad, contáctanos en:<br/>
+        <a href="mailto:jmsuazob@gmail.com">jmsuazob@gmail.com</a>
+      </p>
+    </div>
+
+  </section>
+
+  <footer>
+    &copy; 2026 GastroPro. All rights reserved / Todos los derechos reservados.
+  </footer>
+
+</div>
+
+<script>
+  function setLang(lang) {
+    document.querySelectorAll('section').forEach(s => s.classList.remove('visible'));
+    document.getElementById(lang).classList.add('visible');
+    document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.lang-btn').forEach(b => {
+      if (b.textContent.toLowerCase().includes(lang === 'en' ? 'english' : 'español')) {
+        b.classList.add('active');
+      }
+    });
+  }
+</script>
+
+</body>
+</html>
