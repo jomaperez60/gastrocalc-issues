@@ -1,2 +1,2 @@
 # gastrocalc-issues
-Repositorio para problemas con SuazoCalc
+Repositorio para problemas con GastroPro
